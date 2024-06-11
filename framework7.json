@@ -1,0 +1,20 @@
+{
+  "cwd": "C:\\Users\\LAB\\Desktop\\artifact",
+  "type": ["capacitor", "pwa"],
+  "name": "artifact",
+  "framework": "svelte",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "com.news.artifact",
+  "capacitor": {
+    "platforms": ["ios", "android"]
+  }
+}
