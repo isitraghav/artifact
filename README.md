@@ -2,6 +2,8 @@
 
 A local decentralized news app that enabled everyone's voice to be heard
 
+[DOWNLOAD BUILT APK](https://github.com/isitraghav/artifact/releases/download/v1.0.0/app_v1.0.0__debug.apk)
+
 ### Building For Android
 
 ```
