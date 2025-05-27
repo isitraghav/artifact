@@ -2,7 +2,7 @@ import GUN from "gun";
 import "gun/sea";
 import { writable } from "svelte/store";
 export const db = new GUN({
-  peers: [localStorage.getItem("peer") || "https://peer.wallie.io/gun"],
+  peers: ["http://localhost:8765/gun", localStorage.getItem("peer") || "https://peer.wallie.io/gun"],
   localStorage: true,
   radisk: true,
 });
